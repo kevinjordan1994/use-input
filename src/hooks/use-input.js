@@ -9,7 +9,6 @@ export default function useInput(validation) {
 
   const changeHandler = (event) => {
     setValue(event.target.value);
-    setWasTouched(true);
   };
 
   const blurHandler = () => {
